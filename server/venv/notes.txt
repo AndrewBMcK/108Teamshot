@@ -1,0 +1,18 @@
+
+
+# activate venv
+
+windows:
+venv/Scripts/activate
+
+mac, linux:
+source venv/bin/activate
+
+
+# run the flask project
+
+-- OLD way
+python3 server.py
+
+-- NEW way
+flask --app server.py --debug run
