@@ -1,0 +1,12 @@
+.contact h2 {
+    color: darkcyan;
+}
+
+.contact .form {
+    max-width: 500px;
+    border: 1px solid #6a6a6a;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #61dafb;
+    margin: 20px auto;
+}

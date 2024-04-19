@@ -1,0 +1,35 @@
+.home {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.home img {
+    width: 70%;
+    height: 400px; /* Adjust this value to your desired height */
+    object-fit: contain;
+    min-height: calc(80vh - 144px); 
+    margin-top: 50px;
+}
+
+.home .card-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.home .card {
+    border: 5px solid #61dafb;
+    border-radius: 5px;
+    margin: 30px; /* Add some spacing between cards */
+    display: flex; /* Use flexbox to center the image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    overflow: hidden;
+    max-width: 50%;
+    background-color: rgb(35, 34, 34) !important;
+}
+
+.card .card-title {
+    background-color: #ccf3fd;
+}

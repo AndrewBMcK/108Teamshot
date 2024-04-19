@@ -1,0 +1,81 @@
+.navbar {
+    background-color: #282c34;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-size: cover;
+}
+
+.logo {
+    color: #61dafb;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.skull-icon {
+    margin-left: 10px; /* Add margin to the left of the skull icon */
+}
+
+.logo:hover {
+    box-shadow: 0 0 10px rgba(97, 218, 251, 0.5);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 15px;
+    color: rgb(243, 235, 235);
+}
+
+.nav-link,
+.nav-link.login {
+    text-decoration: none;
+    color: #ffffff; /* Set link text color to white */
+    font-weight: 600;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link.login:hover {
+    color: #ffffff; /* Set link text color to white on hover */
+    background-color: #61dafb; /* Set background color on hover */
+    box-shadow: 0 0 10px rgba(97, 218, 251, 0.5); /* Add shadow on hover */
+    transform: scale(1.05); /* Scale on hover */
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right .nav-link.login {
+    margin-right: 15px; /* Add margin to the right of the login/signup button */
+}
+
+/* Set the color of the icons to the original blue */
+.nav-links .nav-link:not(.login) i {
+    color: #61dafb;
+}
+
+.user-dropdown .dropdown-content {
+    display: none;
+}
+
+.user-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+

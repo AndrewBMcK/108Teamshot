@@ -1,0 +1,17 @@
+.recruiting .game-section {
+    border: 1px solid #333;
+    margin-bottom: 10px;    
+}
+
+.recruiting .player {    
+    display: inline-block;
+    width: 300px;
+    border: 1px solid darkcyan;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 0 12px 12px 0;
+}
+
+.recruiting .player label {
+    display: block;
+}
