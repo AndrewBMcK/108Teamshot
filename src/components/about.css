@@ -1,0 +1,19 @@
+.about {
+    padding: 20px; /* Add padding to the about section */
+}
+
+.about h2 {
+    color: #61dafb;
+    margin-top: 15px;
+}
+
+.about p {
+    color: white;
+    font-size: .8rem; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    line-height: 1.6; /* Increase line height for better readability */
+    max-width: 800px; /* Limit maximum width of paragraphs */
+    margin: 20px auto; /* Center paragraphs horizontally and add spacing between them */
+}
+
+

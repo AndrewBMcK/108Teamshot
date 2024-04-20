@@ -27,9 +27,9 @@
     align-items: center; /* Center vertically */
     overflow: hidden;
     max-width: 50%;
-    background-color: rgb(35, 34, 34) !important;
+    background-color: rgb(232, 235, 239) !important;
 }
 
 .card .card-title {
-    background-color: #ccf3fd;
+    background-color: #ffffff;
 }

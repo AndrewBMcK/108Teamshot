@@ -45,6 +45,7 @@ function Navbar() {
       <NavLink to="/home" className="logo">
         <i className="fa-solid fa-skull skull-icon"></i> Teamshot
       </NavLink>
+
       <ul className="nav-links">
         <li>
           <i className="fa-solid fa-person-military-rifle"></i>
@@ -65,10 +66,13 @@ function Navbar() {
           </NavLink>
         </li>
       </ul>
+      
       <div className="nav-right">
         {userName ? ( // If user is logged in, display user name and logout dropdown
           <div className="user-dropdown">
-            <span className="username">{userName}</span>
+            <NavLink to="/profile" className="username">
+              <span className="username">{userName}</span>
+            </NavLink>
             <div className="dropdown-content">
               <button onClick={handleLogout}>Logout</button>
             </div>

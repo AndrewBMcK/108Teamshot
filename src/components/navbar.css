@@ -74,7 +74,12 @@
     display: block;
 }
 
-
+.navbar .username {
+    color: #61dafb;
+    transform: scale(1.05); /* Scale on hover */
+    text-decoration: none;
+    margin-right: 60px;
+}
 
 
 

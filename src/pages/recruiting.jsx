@@ -26,7 +26,6 @@ function Recruiting() {
             <div className="game-section">
                 <h2>{game.name}</h2>
                 <img src={game.image} alt="" />
-                <h5>LFT Users</h5>
                 {/* get the users for that game */}
                 <div className="player-section">
                 {allPlayers

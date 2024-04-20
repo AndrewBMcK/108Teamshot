@@ -43,10 +43,13 @@ function Profile() {
 
     return (
         <div className="profile-container">
+            <div>
+                <img src="/images/niko.jpg" alt="niko"/>
+            </div>
             <div className="profile-details">
+            
                 {!editMode && (
                     <>
-                        <div>Username: {userData.username}</div>
                         <div>Handle: {userData.handle}</div>
                         <div>Region: {userData.region}</div>
                         <div>Experience: {userData.experience}</div>
